@@ -12,3 +12,4 @@ const DisplayNav = () => {
         mainNav.style.display = "none";
     };
 }
+

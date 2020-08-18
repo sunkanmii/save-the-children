@@ -126,3 +126,22 @@ header .bread-crumbs {
     font-size: 1.3rem;
 }
 
+.grid-main-content{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25rem 25rem 25rem 15rem;
+    justify-items: center;
+    align-items: center;
+}
+.grid-main-content > section {
+    display: flex;
+    width: 90%;
+}
+.grid-main-content > section > img{
+    display: none;
+    width: 30%;
+    height: auto;
+}
+.grid-main-content .section-million article .numbers{
+    font-size: 3.5rem;
+}
