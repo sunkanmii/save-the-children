@@ -19,6 +19,7 @@ body {
 
 main {
     display: grid;
+    grid-template-rows: auto auto auto 7rem;
 }
 
 
@@ -34,11 +35,12 @@ header {
 header p {
     grid-area: 1 / 1 / 2 / 2;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     letter-spacing: 0.5rem;
 }
 
 header .section-links {
+    display: none;
     grid-area: 2 / 1 / 3 / 3;
     width: 100%;
     justify-self: center;
@@ -73,7 +75,7 @@ header .section-links ul {
 header .section-links ul li a {
     padding: 1rem;
     color: #03567b;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 header .bread-crumbs {
@@ -171,9 +173,9 @@ header .bread-crumbs {
     display: grid;
     position: relative;
     grid-template-columns: 100%;
-    grid-template-rows: 40rem 25rem 45rem 10rem 23rem 45rem 10rem;
+    grid-template-rows: 40rem 25rem 45rem 10rem 23rem 60rem 5rem;
     justify-items: center;
-    align-items: center;
+    align-items: start;
     color: white;
     background: linear-gradient(to bottom, #0b8dfe, #51aeff66);
     margin: 11.5rem 0;
@@ -183,8 +185,8 @@ header .bread-crumbs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2rem;
-    height: 100%;
+    padding: 1rem;
+    height: 40%;
     width: 90%;
 }
 
@@ -209,8 +211,7 @@ header .bread-crumbs {
 }
 
 #donate-sign .or-section {
-    display: flex;
-    margin: 2rem 0;
+    margin: 1rem 0;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -275,6 +276,7 @@ header .bread-crumbs {
 #donate-sign .donate-section p {
     font-size: 1.3rem;
     font-weight: bolder;
+    text-align: center;
 }
 
 #donate-sign .or-section hr {
@@ -306,6 +308,20 @@ footer p{
 }
 
 @media screen and (min-width: 42rem) {
+    .grid-main-content section{
+        height: 100%;
+    }
+    .grid-main-content{
+        grid-template-rows: 40rem 25rem 45rem 10rem 23rem 33rem 11rem;
+    }
+    header .section-links {
+        display: inline-block;
+        visibility: visible;
+    }
+
+    header .bread-crumbs {
+        display:none;
+    }
     #donate-sign .donate-section:hover, #donate-sign .share-sign:hover{
         width: 50%;
     }
@@ -316,6 +332,7 @@ footer p{
     #donate-sign .donate-section,
     #donate-sign .share-sign {
         width: 45%;
+        overflow: hidden;
     }
 
     #donate-sign .or-section {
@@ -378,6 +395,9 @@ footer p{
 }
 
 @media screen and (min-width: 64rem) {
+    .grid-main-content{
+    grid-template-rows:  25rem 45rem 10rem 23rem 29rem 12rem;
+    }
     .grid-main-content section article {
         padding: 0rem 16rem 0rem 1rem;
     }
@@ -388,6 +408,10 @@ footer p{
 }
 
 @media screen and (min-width: 75rem) {
+    .grid-main-content{
+        grid-template-rows:  25rem 45rem 10rem 23rem 27rem 18rem;
+    }
+    
     #donate-sign .or-section {
         width: 10%;
         margin: 0rem 3rem;
