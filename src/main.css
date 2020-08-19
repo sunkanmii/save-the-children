@@ -179,7 +179,7 @@ header .bread-crumbs {
     border: 1px solid black;
 }
 
-#donate-sign ul li img{
+#donate-sign ul li img {
     display: none;
     width: 4.3rem;
     height: auto;
@@ -199,14 +199,28 @@ header .bread-crumbs {
 }
 
 @media screen and (min-width: 42rem) {
-    #donate-sign ul li img{
-        display: block;
+    #donate-sign ul li img {
+        display: inline-block;
     }
+
     #donate-sign .or-section {
         width: 20%;
     }
-    
-    
+
+    #donate-sign .share-sign ul li,
+    #donate-sign .donate-section ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #donate-sign .donate-section ul li{
+       width: 65%;
+    }
+
+    #donate-sign .share-sign ul li a,  #donate-sign .donate-section ul li a{
+        justify-self: start;
+    }
     .grid-main-content .section-million,
     .grid-main-content>section {
         flex-wrap: nowrap;
@@ -214,43 +228,43 @@ header .bread-crumbs {
         align-items: center;
         width: 90%;
     }
-    
+
     .grid-main-content .question {
         flex-wrap: wrap;
         width: 100%;
         justify-content: center
     }
-    
+
     .grid-main-content .question p {
         text-align: center;
         display: inline-block;
         width: 100%;
     }
-    
+
     .grid-main-content section:nth-child(2) {
         justify-content: right;
     }
-    
+
     .grid-main-content>section>article {
         padding: 0rem 16rem 0rem 1rem;
     }
-    
+
     .grid-main-content section:nth-child(2) article {
         padding: 0rem 0rem 0rem 16rem;
     }
-    
+
     .grid-main-content>section>img {
         display: block;
         box-shadow: -10px 9px 3px #bb5a5a;
     }
-    
+
 }
 
 @media screen and (min-width: 64rem) {
     .grid-main-content>section>article {
         padding: 0rem 16rem 0rem 1rem;
     }
-    
+
     .grid-main-content section:nth-child(2) article {
         padding: 0rem 0rem 0rem 25rem;
     }
@@ -265,7 +279,7 @@ header .bread-crumbs {
     .grid-main-content>section>article {
         padding: 0rem 40rem 0rem 1rem;
     }
-    
+
     .grid-main-content section:nth-child(2) article {
         padding: 0rem 0rem 0rem 50rem;
     }
