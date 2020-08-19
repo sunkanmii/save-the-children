@@ -48,6 +48,22 @@ header .section-links ul {
     justify-self: end;
 }
 
+ul{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 36%;
+}
+
+ul li{
+    list-style-type: none;
+    justify-self: center;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
 header .section-links ul li {
     list-style-type: none;
     justify-self: center;
@@ -129,12 +145,16 @@ header .bread-crumbs {
 .grid-main-content{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 25rem 25rem 25rem 15rem;
+    grid-template-rows: 40rem 25rem 45rem 10rem 23rem 20rem;
     justify-items: center;
     align-items: center;
+    margin: 1.5rem 0;
 }
 .grid-main-content > section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
     width: 90%;
 }
 .grid-main-content > section > img{
@@ -142,6 +162,22 @@ header .bread-crumbs {
     width: 30%;
     height: auto;
 }
-.grid-main-content .section-million article .numbers{
+.grid-main-content section article .numbers{
     font-size: 3.5rem;
+}
+
+#donate-sign .or-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#donate-sign .or-section hr{
+    display: inline-block;
+    margin: 0rem 0.4rem;
+    height: 0.05rem;
+    background-color: rgba(137, 137, 137, 0.728);
+    width: 30%;
+
 }
