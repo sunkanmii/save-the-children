@@ -44,7 +44,7 @@
                 </section>    
             </section>
             <video autoplay muted loop>
-                <source src="/video/videoplayback.mp4" type="video/mp4" />
+                <source src="video/videoplayback.mp4" type="video/mp4" />
                 
                 Your browser doesn't support video.
             </video>
@@ -52,7 +52,7 @@
         
         <section class="grid-main-content">
             <section class="section-million">
-                <img src="/imgs/30102452_15271087660_r.jpeg" alt="yemen child hungry">
+                <img src="imgs/30102452_15271087660_r.jpeg" alt="yemen child hungry">
                 <article>
                     <p>Over</p>
                     <p class="numbers">1.5 million <span>children</span></p>
@@ -71,11 +71,11 @@
                     <p class="numbers">12 million <span>children</span></p>
                     12.2 million children are in dire need of humanitarian assistance who are living in hard-to-reac districts. 
                 </article>
-                <img src="/imgs/yemen-baby-malnourished.jpg" alt="yemen child hungry">
+                <img src="imgs/yemen-baby-malnourished.jpg" alt="yemen child hungry">
             </section>
             
             <section>
-                <img src="/imgs/cq5dam.thumbnail.360.360.jpg" alt="yemen child hungry">
+                <img src="imgs/cq5dam.thumbnail.360.360.jpg" alt="yemen child hungry">
                 <article>
                     <p>Over</p>
                     <p class="numbers">20 million <span>people are in need.</span></p>
@@ -108,9 +108,9 @@
                 <section class="donate-section">
                     <p class="donate">Donate via these websites</p>
                     <ul>
-                        <li><img src="/imgs/unicef.png" alt="unicef logo"><a href="https://www.unicef.org/emergencies/yemen-crisis#what-unicef-is-doing">Unicef</a></li>
-                        <li><img src="/imgs/savethechildren.png" alt="savethechildren.org logo"><a href="https://www.savethechildren.org/us/what-we-do/where-we-work/greater-middle-east-eurasia/yemen">savethechildren.org</a></li>
-                        <li><img src="/imgs/Islamic-relief.jpg" alt="islamic relief-uk logo"><a href="https://www.islamic-relief.org.uk/yemen-emergency-appeal/">islamic-relief.org.uk</a></li>
+                        <li><img src="imgs/unicef.png" alt="unicef logo"><a href="https://www.unicef.org/emergencies/yemen-crisis#what-unicef-is-doing">Unicef</a></li>
+                        <li><img src="imgs/savethechildren.png" alt="savethechildren.org logo"><a href="https://www.savethechildren.org/us/what-we-do/where-we-work/greater-middle-east-eurasia/yemen">savethechildren.org</a></li>
+                        <li><img src="imgs/Islamic-relief.jpg" alt="islamic relief-uk logo"><a href="https://www.islamic-relief.org.uk/yemen-emergency-appeal/">islamic-relief.org.uk</a></li>
                     </ul>
                 </section>
                 
@@ -123,8 +123,8 @@
                 <section class="share-sign">
                     <p class="petition">Sign a petition</p>
                     <ul>
-                        <li><img src="/imgs/change_org.png" alt="change.org logo"><a href="https://www.change.org/p/stop-the-war-and-end-the-famine-in-yemen">Stop the war and end famine in Yemen</a></li>
-                        <li><img src="/imgs/savethechildren.png" alt="savethechildren.org logo"><a href="https://www.savethechildren.org.uk/how-you-can-help/show-your-support/campaigning-to-protect-children-in-yemen">Save the children (uk support)</a></li>
+                        <li><img src="imgs/change_org.png" alt="change.org logo"><a href="https://www.change.org/p/stop-the-war-and-end-the-famine-in-yemen">Stop the war and end famine in Yemen</a></li>
+                        <li><img src="imgs/savethechildren.png" alt="savethechildren.org logo"><a href="https://www.savethechildren.org.uk/how-you-can-help/show-your-support/campaigning-to-protect-children-in-yemen">Save the children (uk support)</a></li>
                     </ul>    
                 </section>
             </section>
@@ -140,7 +140,7 @@
         <p>Copyright &copy; 2020 Fafowora Olasunkanmi</p>
     </footer>
     
-    <script src='/js/index.js'></script>
+    <script src='js/index.js'></script>
 </body>
 
 </html>
