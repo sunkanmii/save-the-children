@@ -196,6 +196,7 @@ header .bread-crumbs {
 
     .grid-main-content .section-million,
     .grid-main-content>section {
+        position: relative;
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
@@ -216,6 +217,15 @@ header .bread-crumbs {
 
     .grid-main-content>section>img {
         display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .grid-main-content>section>img:nth-child(2) {
+        position: absolute;
+        width: 20%;
+        bottom: 7.6rem;
+        right: 0.4rem;
     }
 }
 
@@ -233,7 +243,7 @@ header .bread-crumbs {
     .grid-main-content>section>article {
         padding: 0rem 40rem 0rem 1rem;
     }
-    
+
     .grid-main-content section:nth-child(2) article {
         padding: 0rem 0rem 0rem 50rem;
     }
