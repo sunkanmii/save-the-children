@@ -140,7 +140,7 @@ header .bread-crumbs {
 
 .video-overlay p {
     width: 100%;
-    font-size: 2.3rem;
+    font-size: 1.2rem;
 }
 
 .video-overlay a {
@@ -148,7 +148,7 @@ header .bread-crumbs {
     font-size: 1rem;
     color: white;
     border-radius: 4rem;
-    width: 14rem;
+    width: 9rem;
     padding: 1rem;
     cursor: pointer;
     box-shadow: 0px 5px 7px grey;
@@ -201,12 +201,13 @@ header .bread-crumbs {
     font-weight: bolder;
 }
 
-.grid-main-content .question a{
+.grid-main-content .question a {
     text-align: center;
     font-weight: bolder;
     width: 80%;
 }
-.grid-main-content .question a:hover{
+
+.grid-main-content .question a:hover {
     color: goldenrod;
 }
 
@@ -234,20 +235,47 @@ header .bread-crumbs {
 }
 
 @-webkit-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+    0% {
+        background-position: 10% 0%
+    }
+
+    50% {
+        background-position: 91% 100%
+    }
+
+    100% {
+        background-position: 10% 0%
+    }
 }
+
 @-moz-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+    0% {
+        background-position: 10% 0%
+    }
+
+    50% {
+        background-position: 91% 100%
+    }
+
+    100% {
+        background-position: 10% 0%
+    }
 }
-@keyframes Animation { 
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+
+@keyframes Animation {
+    0% {
+        background-position: 10% 0%
+    }
+
+    50% {
+        background-position: 91% 100%
+    }
+
+    100% {
+        background-position: 10% 0%
+    }
 }
+
 #donate-sign ul li img {
     display: none;
     width: 4.3rem;
@@ -260,18 +288,22 @@ header .bread-crumbs {
     color: white;
     text-decoration: underline;
 }
+
 #donate-sign .share-sign ul li a:hover,
 #donate-sign .donate-section ul li a:hover {
-    color:goldenrod;
+    color: goldenrod;
 }
+
 #donate-sign .share-sign ul li a:focus,
 #donate-sign .donate-section ul li a:focus {
-    color:rgb(255, 206, 82);
+    color: rgb(255, 206, 82);
 }
+
 #donate-sign .share-sign ul li a:active,
 #donate-sign .donate-section ul li a:active {
-    color:rgb(160, 116, 4);
+    color: rgb(160, 116, 4);
 }
+
 #donate-sign .share-sign p,
 #donate-sign .donate-section p {
     font-size: 1.3rem;
@@ -287,11 +319,11 @@ header .bread-crumbs {
     width: 30%;
 }
 
-.grid-main-content svg{
+.grid-main-content svg {
     display: block;
 }
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -301,30 +333,35 @@ footer{
     background-color: darkslategrey;
 }
 
-footer p{
+footer p {
     display: inline-block;
     text-align: center;
     width: 100%;
 }
 
 @media screen and (min-width: 42rem) {
-    .grid-main-content section{
+    .grid-main-content section {
         height: 100%;
     }
-    .grid-main-content{
+
+    .grid-main-content {
         grid-template-rows: 40rem 25rem 45rem 10rem 23rem 33rem 11rem;
     }
+
     header .section-links {
         display: inline-block;
         visibility: visible;
     }
 
     header .bread-crumbs {
-        display:none;
+        display: none;
     }
-    #donate-sign .donate-section:hover, #donate-sign .share-sign:hover{
+
+    #donate-sign .donate-section:hover,
+    #donate-sign .share-sign:hover {
         width: 50%;
     }
+
     #donate-sign ul li img {
         display: inline-block;
     }
@@ -338,7 +375,7 @@ footer p{
     #donate-sign .or-section {
         width: 20%;
     }
-    
+
     #donate-sign .share-sign ul li,
     #donate-sign .donate-section ul li {
         display: flex;
@@ -387,7 +424,7 @@ footer p{
         padding: 0rem 0rem 0rem 16rem;
     }
 
-    .grid-main-content section > img {
+    .grid-main-content section>img {
         display: block;
         box-shadow: -10px 9px 3px #bb5a5a;
     }
@@ -395,9 +432,18 @@ footer p{
 }
 
 @media screen and (min-width: 64rem) {
-    .grid-main-content{
-    grid-template-rows:  25rem 45rem 10rem 23rem 29rem 12rem;
+    .video-overlay p {
+        font-size: 2rem;
     }
+
+    .video-overlay a {
+        width: 14rem;
+    }
+
+    .grid-main-content {
+        grid-template-rows: 25rem 45rem 10rem 23rem 29rem 12rem;
+    }
+
     .grid-main-content section article {
         padding: 0rem 16rem 0rem 1rem;
     }
@@ -408,16 +454,16 @@ footer p{
 }
 
 @media screen and (min-width: 75rem) {
-    .grid-main-content{
+    .grid-main-content {
         grid-template-rows: 35rem 45rem 10rem 23rem 27rem 18rem;
     }
-    
+
     #donate-sign .or-section {
         width: 10%;
         margin: 0rem 3rem;
     }
 
-    .grid-main-content section > article {
+    .grid-main-content section>article {
         padding: 0rem 40rem 0rem 1rem;
     }
 
