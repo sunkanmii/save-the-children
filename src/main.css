@@ -4,12 +4,13 @@
     box-sizing: border-box;
     font-size: 1rem;
     scroll-behavior: smooth;
+    color: white;
 }
 
 html,
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: #098dff;
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.12rem;
@@ -32,6 +33,9 @@ header {
 
 header p {
     grid-area: 1 / 1 / 2 / 2;
+    color: black;
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
 }
 
 header .section-links {
@@ -68,6 +72,8 @@ header .section-links ul {
 
 header .section-links ul li a {
     padding: 1rem;
+    color: #03567b;
+    font-size: 1.3rem;
 }
 
 header .bread-crumbs {
@@ -126,31 +132,63 @@ header .bread-crumbs {
     align-items: center;
     flex-wrap: wrap;
     height: 10rem;
+    position: relative;
+    z-index: 9;
 }
 
 .video-overlay p {
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
 }
+
+.video-overlay a {
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+    border-radius: 4rem;
+    width: 14rem;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 7px grey;
+    border: 0px solid white;
+    text-decoration: none;
+    background: linear-gradient(to bottom right, #0ab3ff, #013d58);
+    background-size: 200% 200%;
+    animation: 3s ease infinite Animation;
+    transition: all 190ms 40ms ease-in;
+}
+
+.video-overlay a:hover {
+    width: 15rem;
+}
+
+/* 
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+} */
 
 .grid-main-content {
     display: grid;
+    position: relative;
     grid-template-columns: 100%;
-    grid-template-rows: 40rem 25rem 45rem 10rem 23rem auto;
+    grid-template-rows: 40rem 25rem 45rem 10rem 23rem 45rem 10rem;
     justify-items: center;
     align-items: center;
-    margin: 1.5rem 0;
+    color: white;
+    background: linear-gradient(to bottom, #0b8dfe, #51aeff66);
+    margin: 11.5rem 0;
 }
 
-.grid-main-content>section {
+.grid-main-content section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 2rem;
     height: 100%;
     width: 90%;
 }
 
-.grid-main-content>section>img {
+.grid-main-content section img {
     display: none;
     width: 20%;
     height: auto;
@@ -158,6 +196,16 @@ header .bread-crumbs {
 
 .grid-main-content section article .numbers {
     font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.grid-main-content .question a{
+    text-align: center;
+    font-weight: bolder;
+    width: 80%;
+}
+.grid-main-content .question a:hover{
+    color: goldenrod;
 }
 
 #donate-sign .or-section {
@@ -176,9 +224,29 @@ header .bread-crumbs {
     align-items: center;
     height: 20rem;
     flex-wrap: wrap;
-    border: 1px solid black;
+    color: white;
+    border: 4px solid goldenrod;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, #00ae00ed, #8bc34aa6);
+    box-shadow: -2px 8px 14px grey;
+    transition: all 80ms 10ms ease-in;
 }
 
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
 #donate-sign ul li img {
     display: none;
     width: 4.3rem;
@@ -188,6 +256,25 @@ header .bread-crumbs {
 #donate-sign .share-sign ul li a,
 #donate-sign .donate-section ul li a {
     width: 70%;
+    color: white;
+    text-decoration: underline;
+}
+#donate-sign .share-sign ul li a:hover,
+#donate-sign .donate-section ul li a:hover {
+    color:goldenrod;
+}
+#donate-sign .share-sign ul li a:focus,
+#donate-sign .donate-section ul li a:focus {
+    color:rgb(255, 206, 82);
+}
+#donate-sign .share-sign ul li a:active,
+#donate-sign .donate-section ul li a:active {
+    color:rgb(160, 116, 4);
+}
+#donate-sign .share-sign p,
+#donate-sign .donate-section p {
+    font-size: 1.3rem;
+    font-weight: bolder;
 }
 
 #donate-sign .or-section hr {
@@ -198,31 +285,61 @@ header .bread-crumbs {
     width: 30%;
 }
 
+.grid-main-content svg{
+    display: block;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: darkslategrey;
+}
+
+footer p{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
 @media screen and (min-width: 42rem) {
+    #donate-sign .donate-section:hover, #donate-sign .share-sign:hover{
+        width: 50%;
+    }
     #donate-sign ul li img {
         display: inline-block;
+    }
+
+    #donate-sign .donate-section,
+    #donate-sign .share-sign {
+        width: 45%;
     }
 
     #donate-sign .or-section {
         width: 20%;
     }
-
+    
     #donate-sign .share-sign ul li,
-    #donate-sign .donate-section ul li{
+    #donate-sign .donate-section ul li {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    #donate-sign .donate-section ul li{
-       width: 65%;
+    #donate-sign .donate-section ul li {
+        width: 65%;
     }
 
-    #donate-sign .share-sign ul li a,  #donate-sign .donate-section ul li a{
+    #donate-sign .share-sign ul li a,
+    #donate-sign .donate-section ul li a {
         justify-self: start;
     }
+
     .grid-main-content .section-million,
-    .grid-main-content>section {
+    .grid-main-content section {
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
@@ -245,7 +362,7 @@ header .bread-crumbs {
         justify-content: right;
     }
 
-    .grid-main-content>section>article {
+    .grid-main-content section>article {
         padding: 0rem 16rem 0rem 1rem;
     }
 
@@ -253,7 +370,7 @@ header .bread-crumbs {
         padding: 0rem 0rem 0rem 16rem;
     }
 
-    .grid-main-content>section>img {
+    .grid-main-content section > img {
         display: block;
         box-shadow: -10px 9px 3px #bb5a5a;
     }
@@ -261,7 +378,7 @@ header .bread-crumbs {
 }
 
 @media screen and (min-width: 64rem) {
-    .grid-main-content>section>article {
+    .grid-main-content section article {
         padding: 0rem 16rem 0rem 1rem;
     }
 
@@ -276,7 +393,7 @@ header .bread-crumbs {
         margin: 0rem 3rem;
     }
 
-    .grid-main-content>section>article {
+    .grid-main-content section > article {
         padding: 0rem 40rem 0rem 1rem;
     }
 
