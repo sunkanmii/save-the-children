@@ -140,8 +140,13 @@
     <footer>
         <p id="about">This page was made to spread awareness and provide links to how you can help during this
             at home pandemic.</p>
-        <p>Do share with others. Thanks! 😊</p>
-        
+        <p>Do share with others.</p>
+        <section id="links">
+            <a href="https://twitter.com/intent/tweet?text=%23saveyemen%20%0APlease%20sign%20a%20petition,%20donate%20and%20share%20to%20spread%20awareness%0A%0Ahttps%3A//sunkanmii.github.io/save-the-children/"><img src="imgs/twitter.png" alt="share on twitter"></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sunkanmii.github.io/save-the-children/"><img src="imgs/facebook.png" alt="share on facebook"></a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//sunkanmii.github.io/save-the-children/&title=&summary=&source="><img src="imgs/linkedin.png" alt="share on linkedin"></a>
+        </section>
+        <p>Thanks! 😊</p>
         <p>Copyright &copy; 2020 Fafowora Olasunkanmi</p>
     </footer>
     

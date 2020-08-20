@@ -632,8 +632,23 @@ header .section-links ul li a {
     padding: 1rem;
     color: #03567b;
     font-size: 1rem;
+    animation: 5s ease infinite change-color;
 }
 
+@keyframes change-color{
+    0%{
+        color: #03567b;
+    }
+    25%{
+        color: #1a70b6;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: #03567b;
+    }
+}
 header .bread-crumbs {
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
