@@ -49,11 +49,11 @@ header .section-links {
     overflow: hidden;
 }
 
-header #toggle-butt{
+header #toggle-butt {
     display: none;
 }
 
-header #toggle-butt:checked ~ .section-links{
+header #toggle-butt:checked~.section-links {
     height: 10rem;
 }
 
@@ -186,7 +186,7 @@ header .bread-crumbs {
     grid-template-columns: 100%;
     grid-template-rows: 40rem 25rem 45rem 10rem 23rem 60rem 5rem;
     justify-items: center;
-    align-items: start;
+    align-items: center;
     color: white;
     background: linear-gradient(to bottom, #0b8dfe, #51aeff66);
     margin: 11.5rem 0;
@@ -222,6 +222,10 @@ header .bread-crumbs {
     color: goldenrod;
 }
 
+#donate-sign {
+    align-self: start;
+}
+
 #donate-sign .or-section {
     margin: 1rem 0;
     justify-content: center;
@@ -245,15 +249,16 @@ header .bread-crumbs {
     transition: all 80ms 10ms ease-in;
 }
 
+
 @-webkit-keyframes Animation {
     0% {
         background-position: 10% 0%
     }
-
+    
     50% {
         background-position: 91% 100%
     }
-
+    
     100% {
         background-position: 10% 0%
     }
@@ -263,11 +268,11 @@ header .bread-crumbs {
     0% {
         background-position: 10% 0%
     }
-
+    
     50% {
         background-position: 91% 100%
     }
-
+    
     100% {
         background-position: 10% 0%
     }
@@ -277,11 +282,11 @@ header .bread-crumbs {
     0% {
         background-position: 10% 0%
     }
-
+    
     50% {
         background-position: 91% 100%
     }
-
+    
     100% {
         background-position: 10% 0%
     }
@@ -354,7 +359,10 @@ footer p {
     .grid-main-content section {
         height: 100%;
     }
-
+    
+    #donate-sign {
+        align-self: center;
+    }
     .grid-main-content {
         grid-template-rows: 40rem 25rem 45rem 10rem 23rem 33rem 11rem;
     }
