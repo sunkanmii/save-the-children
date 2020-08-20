@@ -72,7 +72,7 @@
                 <article>
                     <p>Over</p>
                     <p class="numbers">12 million <span>children</span></p>
-                    12.2 million children are in dire need of humanitarian assistance who are living in hard-to-reac districts. 
+                    12.2 million children are in dire need of humanitarian assistance who are living in hard-to-react districts. 
                 </article>
                 <img src="imgs/yemen-baby-malnourished.jpg" alt="yemen child hungry">
             </section>
