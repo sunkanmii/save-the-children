@@ -213,7 +213,7 @@ header .bread-crumbs {
     font-weight: bolder;
 }
 
-.grid-main-content section article .numbers#amount{
+.grid-main-content section article .numbers#amount {
     font-size: 1.5rem;
 }
 
@@ -512,7 +512,7 @@ footer p {
     }
 
     .grid-main-content {
-        grid-template-rows: 35rem 45rem 10rem 23rem 27rem 18rem;
+        grid-template-rows: 47rem 12rem 52rem 23rem 27rem 18rem;
     }
 
     #donate-sign .or-section {
