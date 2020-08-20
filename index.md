@@ -12,14 +12,16 @@
 <body>
     <header>
         <p id="logo">SaveYemen</p>
+        
+        <input type="checkbox" id="toggle-butt"/>
 
-        <section class="bread-crumbs" onclick="DisplayNav()">
+        <label for="toggle-butt" class="bread-crumbs">
             <div class="bread-crumb"></div>
             <div class="bread-crumb"></div>
             <div class="bread-crumb"></div>
-        </section>
+        </label>
 
-        <section class="section-links">
+        <nav class="section-links">
             <ul class="home-links">
                 <li>
                     <a href="index.html">Home</a>
@@ -31,7 +33,7 @@
                     <a href="#donate-or-share">I want to help</a>
                 </li>
             </ul>
-        </section>
+        </nav>
     </header>
     
     <main>
@@ -140,7 +142,6 @@
         <p>Copyright &copy; 2020 Fafowora Olasunkanmi</p>
     </footer>
     
-    <script src='js/index.js'></script>
 </body>
 
 </html>
