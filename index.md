@@ -99,9 +99,9 @@
                 <article>
                     
                     <p>Appeal 2020</p>
-                    <p class="numbers"><strong>US$ 535 million</strong></p>
+                    <p class="numbers" id="amount">US$ 535 million</p>
                     <p>
-                        Here is how you and I can help achieve this (emoji pointing below.)
+                        Here is how you and I can help achieve this 👇
                     </p>
                 </article>
             </section>
@@ -137,7 +137,7 @@
     </main>
     
     <footer>
-        <p>thank you :) <span>love emoji</span></p>
+        <p>Thank you! 😊</p>
         
         <p>Copyright &copy; 2020 Fafowora Olasunkanmi</p>
     </footer>

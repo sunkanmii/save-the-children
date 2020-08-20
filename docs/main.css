@@ -77,6 +77,7 @@ ul li a {
     display: inline-block;
     width: 100%;
     text-decoration: none;
+    transition: all 80ms ease-in;
 }
 
 header .section-links ul {
@@ -212,6 +213,10 @@ header .bread-crumbs {
     font-weight: bolder;
 }
 
+.grid-main-content section article .numbers#amount{
+    font-size: 1.5rem;
+}
+
 .grid-main-content .question a {
     text-align: center;
     font-weight: bolder;
@@ -254,11 +259,11 @@ header .bread-crumbs {
     0% {
         background-position: 10% 0%
     }
-    
+
     50% {
         background-position: 91% 100%
     }
-    
+
     100% {
         background-position: 10% 0%
     }
@@ -268,11 +273,11 @@ header .bread-crumbs {
     0% {
         background-position: 10% 0%
     }
-    
+
     50% {
         background-position: 91% 100%
     }
-    
+
     100% {
         background-position: 10% 0%
     }
@@ -282,11 +287,11 @@ header .bread-crumbs {
     0% {
         background-position: 10% 0%
     }
-    
+
     50% {
         background-position: 91% 100%
     }
-    
+
     100% {
         background-position: 10% 0%
     }
@@ -307,17 +312,20 @@ header .bread-crumbs {
 }
 
 #donate-sign .share-sign ul li a:hover,
-#donate-sign .donate-section ul li a:hover {
+#donate-sign .donate-section ul li a:hover,
+header .section-links ul li a:hover {
     color: goldenrod;
 }
 
 #donate-sign .share-sign ul li a:focus,
-#donate-sign .donate-section ul li a:focus {
+#donate-sign .donate-section ul li a:focus,
+header .section-links ul li a:focus {
     color: rgb(255, 206, 82);
 }
 
 #donate-sign .share-sign ul li a:active,
-#donate-sign .donate-section ul li a:active {
+#donate-sign .donate-section ul li a:active,
+header .section-links ul li a:active {
     color: rgb(160, 116, 4);
 }
 
@@ -360,27 +368,30 @@ footer p {
     .grid-main-content section {
         height: 100%;
     }
-    
+
     #donate-sign {
         align-self: center;
     }
 
-    header{
+    header {
         grid-template-columns: 40% 50%;
     }
-    header .section-links{
+
+    header .section-links {
         grid-area: 1 / 2 / 2 / 3;
         justify-self: end;
     }
-    
-    header .section-links ul{
+
+    header .section-links ul {
         display: grid;
         grid-template-rows: 4rem;
         grid-template-columns: auto 7rem auto;
     }
-header .section-links ul li{
-    width: 100%;
-}
+
+    header .section-links ul li {
+        width: 100%;
+    }
+
     .grid-main-content {
         grid-template-rows: 40rem 25rem 45rem 10rem 23rem 33rem 11rem;
     }
@@ -469,34 +480,34 @@ header .section-links ul li{
 }
 
 @media screen and (min-width: 64rem) {
-    
+
     .video-overlay p {
         font-size: 2rem;
     }
-    
+
     .video-overlay a {
         width: 14rem;
     }
-    
+
     .grid-main-content {
         grid-template-rows: 25rem 45rem 10rem 23rem 29rem 12rem;
     }
-    
+
     .grid-main-content section article {
         padding: 0rem 16rem 0rem 1rem;
     }
-    
+
     .grid-main-content section:nth-child(2) article {
         padding: 0rem 0rem 0rem 25rem;
     }
 }
 
 @media screen and (min-width: 75rem) {
-    header{
+    header {
         grid-template-columns: 50% 40%;
     }
 
-    header .section-links ul{
+    header .section-links ul {
         grid-template-columns: auto auto auto;
     }
 
