@@ -31,7 +31,7 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#donate-or-share">I want to help</a>
+                    <a href="#donate-sign">I want to help</a>
                 </li>
             </ul>
         </nav>
