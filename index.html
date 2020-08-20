@@ -7,11 +7,12 @@
     <title>Yemen Crisis</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='docs/main.css'>
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/heart.png" />
 </head>
 
 <body>
     <header>
-        <p id="logo">SaveYemen</p>
+        <p id="logo">Save<span>Yemen</span><img src="imgs/heart.png" alt=""></p>
         
         <input type="checkbox" id="toggle-butt"/>
 
@@ -27,7 +28,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="index.html">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
                     <a href="#donate-or-share">I want to help</a>
@@ -137,7 +138,9 @@
     </main>
     
     <footer>
-        <p>Thank you! 😊</p>
+        <p id="about">This page was made to spread awareness and provide links to how you can help during this
+            at home pandemic.</p>
+        <p>Do share with others. Thanks! 😊</p>
         
         <p>Copyright &copy; 2020 Fafowora Olasunkanmi</p>
     </footer>
