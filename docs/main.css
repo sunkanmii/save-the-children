@@ -561,7 +561,7 @@ body {
 
 main {
     display: grid;
-    grid-template-rows: auto auto auto 7rem;
+    grid-template-rows: auto auto auto 6rem;
 }
 
 
@@ -749,7 +749,7 @@ header .bread-crumbs {
     align-items: center;
     color: white;
     background: linear-gradient(to bottom, #0b8dfe, #51aeff66);
-    margin: 11.5rem 0 0rem 0;
+    margin: 11.5rem 0 0rem 0rem;
 }
 
 .grid-main-content section {
