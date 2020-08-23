@@ -749,7 +749,7 @@ header .bread-crumbs {
     align-items: center;
     color: white;
     background: linear-gradient(to bottom, #0b8dfe, #51aeff66);
-    margin: 11.5rem 0;
+    margin: 11.5rem 0 0rem 0;
 }
 
 .grid-main-content section {
